@@ -1,0 +1,43 @@
+body{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+h1{
+    margin: 0;
+}
+article{
+    background-color: pink;
+    
+}
+article p::first-letter{
+    font-size: 50px;
+    color: coral;
+}
+
+.linha::before{
+    content: "Residência - ";
+}
+
+.linha::after{
+    content: " - Serratec";
+}
+
+.coluna1{
+    float: left;
+    width: 49%;
+}
+.coluna2{
+    float: right;
+    width: 49%;
+}
+.coluna1, .coluna2{
+    background-color: rgb(69, 63, 159);
+}
+div{
+    background-color: aqua;
+    text-decoration: underline;
+    clear: both;
+    text-align: center;
+}

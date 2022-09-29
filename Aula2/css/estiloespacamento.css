@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    background-color: bisque;
+    background-image: url(../img/pinguim.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+}
+
+p{
+    margin: auto;
+    text-align: center;
+    width: 600px;
+    border: 6px solid green;
+    background-color: gray;
+    padding: 20px 60px;
+    padding-left: 100px;
+    padding-right: 120px;
+    color: blue
+}

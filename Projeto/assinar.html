@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/form.css" />
+
+</head>
+
+<body>
+    <div class="container">
+        <main class="layout-assinatura">
+            <h1 class="titulo__assinatura">Formulário de Assinatura para Adesão ao Plano </h1>
+            <form action="#">
+                <div class="row">
+                    <div class="my-3 col-sm-12 col-md-12">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input id="nome" type="text" class="form-control" placeholder="Preencha o nome" required="true"
+                            maxlength="40">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="my-3 col-sm-12 col-md-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input id="email" type="email" class="form-control" placeholder="Preencha o email"
+                            required="true" maxlength="40">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="telefone" class="form-label">Telefone</label>
+                        <input id="telefone" type="tel" class="form-control" placeholder="Preencha o telefone"
+                            maxlength="11">
+                    </div>
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="dataNascimento" class="form-label">Data Nascimento</label>
+                        <input id="dataNascimento" type="date" class="form-control" required="true">
+                    </div>
+
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="plano" class="form-label">Escolha o plano</label>
+                        <select id="plano" class="form-control">
+                            <option value="P">Básico</option>
+                            <option value="I">Intermediário</option>
+                            <option value="A">Avançado</option>
+                        </select>
+                    </div>
+                    <div class="my-3 col-sm-3 col-md-3">
+                        <label for="servico" class="form-label">Serviço adicional</label>
+                        <div>
+                        <input id="servico" type="checkbox" value="Netflix">
+                        <label>Netflix</label>
+                        <input id="servico" type="checkbox" value="Globo">
+                        <label>GloboPlay</label>
+                        <input id="servico" type="checkbox" value="Prime">
+                        <label>Prime</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="my-3 class col-sm-4 col-md-4">
+                        <labeL for="avaliacao" class="form-control">Avalie nosso atendimento                      <div>
+                            <input type="range" min="0" max="100" step="5" list="avaliacao" />
+                            <datalist id="avaliacao">
+                                <option value="0">"0%"</option>
+                                <option value="10">"10%"</option>
+                                <option value="20">"20%"</option>
+                                <option value="30">"30%"</option>
+                                <option value="40">"40%"</option>
+                                <option value="50">"50%"</option>
+                                <option value="60">"60%"</option>
+                                <option value="70">"70%"</option>
+                                <option value="80">"80%"</option>
+                                <option value="90">"90%"</option>
+                                <option value="100">"100%"</option>
+                            </datalist>
+                        </div>
+                    </div>
+                </label>  
+                </div>
+                <button class="btn btn-primary">Enviar</button>
+                <input type="reset" value="Limpar" class="btn btn-secondary">
+            </form>
+        </main>
+    </div>
+</body>
+
+</html>

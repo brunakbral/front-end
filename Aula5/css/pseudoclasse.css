@@ -1,0 +1,36 @@
+.meu-link:link{
+    color: blueviolet;
+}
+.meu-link:visited{
+    color: red;
+}
+.meu-link:hover{
+    color: orange;
+}
+
+.disciplinas{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px ;
+}
+
+.disciplinas li{
+    color: darkmagenta;
+}
+
+.disciplinas li:first-child{
+    color: brown;
+}
+
+.disciplinas li:last-child{
+    color: green;
+}
+
+.conteudo div{
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    border: 1px solid cornflowerblue;
+}
+
+.conteudo div:nth-child(even){
+    background-color: black;
+}

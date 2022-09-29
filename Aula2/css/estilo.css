@@ -1,0 +1,10 @@
+h1{ 
+    color:hsl(289, 86%, 31%);
+}
+p{
+    color:hsl(188, 69%, 34%);
+    font-size: 32px;
+}
+img{
+    float: right;
+}

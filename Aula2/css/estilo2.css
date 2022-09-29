@@ -1,0 +1,10 @@
+#titulo ,p{
+    color: aquamarine;
+}
+p.verde{
+    color: rgb(10, 114, 19);
+    font-family: 24px;
+}
+strong{
+    color: deeppink;
+}

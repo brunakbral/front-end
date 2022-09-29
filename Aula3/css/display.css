@@ -1,0 +1,31 @@
+body{
+    font-size: 32px;
+
+}
+
+.empresa{
+    background-color: aqua;
+    display: block;
+}
+
+.area{
+    background-color: purple;
+    display: block;
+}
+
+.celular{
+    background-color: blue;
+    display: block;
+}
+
+.impressora{
+    background-color: chocolate;
+}
+
+.computador, .roteador{
+    background-color: forestgreen;
+    display: inline-block;
+    height: 120px; ;
+    width: 160px;
+}
+
